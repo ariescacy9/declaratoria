@@ -1,0 +1,76 @@
+/*
+debuger
+* {
+    outline: 1px solid rgb(26, 241, 6);
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px;
+    border-top: 20px solid rgb(243, 135, 12);
+   }
+ */ 
+ * {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Parisienne', cursive, "Homer Simpson UI";
+}
+body {
+  background: linear-gradient(273.2deg, rgba(76, 223, 197, 0.74) 14.31%, #C73BCA 83.68%);
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+.container {
+  width: 500 px;
+  height: 500 px;
+  display: flex;
+  justify-content: center;
+}
+.box {
+  background-color: rgb(251, 255, 0);
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  text-align: center;
+}
+.boton {
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  align-content: center;
+  justify-content: space-evenly;
+  border-radius: 10px; 
+}
+#Si {
+  width: 60px;
+  height: 45px;
+  background-color: white;
+  border-radius: 5px;
+}
+#No {
+  width: 60px;
+  height: 45px;
+  background-color: white;
+  border-radius: 5px;
+}
+#Si:hover {background-color: #fd0c04}
+img {
+  flex: auto;
+  flex-wrap: wrap;
+  width: 150px;
+  height: 150px;
+}
+
